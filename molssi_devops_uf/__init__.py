@@ -5,6 +5,7 @@ sample project for molssi workshop
 
 # Add imports here
 from .molssi_math import *
+from .string_util import title_case
 
 # Handle versioneer
 from ._version import get_versions
