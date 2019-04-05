@@ -4,6 +4,8 @@ sample project for molssi workshop
 
 Some math functions.
 """
+
+
 def mean(num_list):
     """
     calculate mean/average from a list of numbers.
@@ -19,13 +21,14 @@ def mean(num_list):
         The mean of the list
     """
 
-    mean_n=0
+    mean_n = 0
     for i in range(len(num_list)):
-        mean_n+=num_list[i]
+        mean_n += num_list[i]
 
     print("You're dumb")
 
-    return mean_n/len(num_list)
+    return mean_n / len(num_list)
+
 
 def canvas(with_attribution=True):
     """
