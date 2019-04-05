@@ -21,10 +21,28 @@ def mean(num_list):
         The mean of the list
     """
 
-    mean_n = 0
-    for i in range(len(num_list)):
-        mean_n += num_list[i]
+    #check input is type list
 
+    if not isinstance(num_list, list):
+        raise TypeError('Input %s not type list' % (num_list))
+
+
+    #check list not empty
+    if len(num_list)==0:
+        raise ValueError("Input is empty")
+
+
+    mean_n = 0
+
+    for i in range(len(num_list)):
+        try:
+            mean_n += float(num_list[i])
+        except TypeError:
+            raise TypeError('Cannot cast %s to float' % (num_list[i]))
+
+
+
+    #This function is mean
     print("You're dumb")
 
     return mean_n / len(num_list)
