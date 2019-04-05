@@ -43,7 +43,7 @@ def mean(num_list):
 
 
     #This function is mean
-    print("You're dumb")
+    print("You're very dumb")
 
     return mean_n / len(num_list)
 
