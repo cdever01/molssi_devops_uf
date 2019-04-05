@@ -8,7 +8,7 @@ molssi_devops_uf
 sample project for molssi workshop
 This repository is currently under development
 To da a development install, type
-'pip install -e .'
+`pip install -e .`
 
 ### Copyright
 
